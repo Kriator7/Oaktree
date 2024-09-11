@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "James_Rupe",
+    "motivations": "\nI aspire to become a DRep for Cardano out of a deep sense of responsibility. Since the ITN days, when Cardano was just a \"whisper of hope,\" I’ve supported the network with belief in its potential. Now, as Cardano grows, I feel called to contribute meaningfully. My goal is to help guide Cardano and the world toward a better future, where decentralization and empowerment are central values. Becoming a DRep allows me to give back to the network I deeply believe in and ensure individuals, not centralized systems, control their futures.",
+    "objectives": "As a DRep for Cardano, my motivation is deeply rooted in individual empowerment and ensuring people have a voice in shaping their future. Over the past three years, I’ve taught blockchain basics, wallet creation, and self-custody, which solidified my commitment to Cardano’s values of decentralization and transparency. Becoming a DRep extends my role as an SPO, allowing me to represent the community and vote on key decisions for the network's future.\n\nI aim to ensure everyone’s voice is heard, even those who may not have the technical expertise. I’ll support initiatives that focus on education, financial inclusion, and sustainable growth. Cardano's governance model, designed for transparency, must ensure accountability and equitable decision-making. I’ll approach this role with integrity, ensuring trust in every vote I cast.\n\nMy vision is to help build a decentralized, transparent financial system, empowering individuals to take control of their financial lives and create a just world.",
+    "paymentAddress": "addr_test1qptchuk3geupf3m2m2jt7hs3w7xhuvmcudgmq5dtk66pmavyupyyf6fyetcc44xvuq2swaqy5sqg0yddfs9sfjtjwrfq6yg0ey",
+    "qualifications": "My desire to become a DRep stems from a deep sense of responsibility to Cardano. I've supported it since the early ITN days when it was just a \"whisper of hope.\" As an SPO, educator, and founder of CardanoMint.com, I've spent the last three years teaching blockchain basics, wallet creation, and self-custody, ensuring people are empowered. My involvement in Tech Alley, JRNY Gallery, and hosting bootcamps has helped expand Cardano’s reach. I believe in decentralization, self-sovereignty, and transparency, values that align with Cardano's mission. As a DRep, I'll vote to ensure a future that empowers and protects individual rights, building a system for future generations to thrive.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": " Cardanomint.com educates on blockchain basics, wallet creation, & self-custody",
+        "uri": "https://cardanomint.com/"
+      },
+      {
+        "@type": "Link",
+        "label": "Techalley.org/superstars",
+        "uri": "https://www.techalley.org/superstars"
+      },
+      {
+        "@type": "Identity",
+        "label": "Linkedin ",
+        "uri": "https://www.linkedin.com/in/james-r-23779911a/"
+      },
+      {
+        "@type": "Identity",
+        "label": "X.com profile",
+        "uri": "https://x.com/CardanoMint"
+      },
+      {
+        "@type": "Identity",
+        "label": "TechAlley",
+        "uri": "https://www.techalley.org/superstars/james-rupe"
+      }
+    ]
+  }
+}
